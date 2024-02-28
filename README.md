@@ -28,9 +28,9 @@ version: "3.8"
 services:
   proxy:
     image: nonker/docker-tor-bridges:latest
-	restart: always
-	volumes:
-	  - /path/to/torrc:/torrc
+    restart: always
+    volumes:
+      - /path/to/torrc:/torrc
 ```
 
 ## Acknowledgements
